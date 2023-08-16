@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>registration form</title>
+        <style type="text/css">
+            body{
+                background: linear-gradient(45deg, green,yellow, red);
+            }
+            .button{
+                background-color: chartreuse;
+                border: 5px solid red;
+                border-radius: 5px;
+            }
+            input{
+                background-color: greenyellow;
+                border-color: red;
+                border-radius: 3px solid black;
+                text-shadow: purple;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+        <fieldset>
+        <legend>registration</legend>
+        <label>First name:</label>
+        <input type="text" name="first name"><br><br>
+        <label>last name:</label>
+        <input type="text" name="last name"><br><br>
+        <label>password:</label>
+        <input type="password" name="password"><br><br>
+         <label>email:</label>
+        <input type="email" name="email"><br><br>
+        <label>mobilenumber:</label>
+        <input type="number" name="number"><br><br>
+        <label>color:</label>
+        <input type="color" name="color"><br><br>
+        <label>gender:</label><br><br>
+        <input type="radio" name="gender" value="male">male<br><br>
+        <input type="radio" name="gender" value="female">Female<br><br>
+        <input type="radio" name="gender" value="others">others<br><br>
+        <label>submit:</label>
+        <input class="button" onclick="changebackground()" type="submit" name="submit" value="submit"><br><br>
+        <label>games:</label><br><br>
+        <input type="checkbox" name="games" value="football">football<br><br>
+        <input type="checkbox" name="games" value="cricket">cricket<br><br>
+        <input type="checkbox" name="gender" value="volleyball">volleyball<br><br>
+        <label>time:</label>
+        <input type="time" name="time"><br><br>
+        <label>month:</label>
+        <input type="month" name="month"><br><br>
+        <label>year:</label>
+        <input type="year" name="year"><br><br>
+        <label>Date:</label>
+        <input type="datetime-local" name="Date"><br><br>
+        <label>week:</label>
+        <input type="week" name="week"><br><br>
+        <label>search:</label>
+        <input type="search" name="search"><br><br>
+        <label>tel:</label>
+        <input type="tel" name="month"><br><br>
+        <script type="text/javascript">
+            function changebackground(){
+                document.body.style.background = "pink";
+            }
+        </script>
+        </fieldset>
+        </form>
+    </body>
+</html>
